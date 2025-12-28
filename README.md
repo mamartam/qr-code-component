@@ -6,5 +6,5 @@ This project was created based on a Frontend Mentor [https://www.frontendmentor.
 - CSS3
 - Google Fonts
 
-## 🖼 Picture 
+## 🖼 Picture of web-page
 <img width="1902" height="1420" alt="Image" src="https://github.com/user-attachments/assets/50f0a9b9-5cfe-4c49-9e0f-dd8a7f600b99" />
