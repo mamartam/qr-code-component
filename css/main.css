@@ -41,7 +41,7 @@ main {
 .main-page-header {
   font-weight: 700;
   font-size: 1.125rem; /* 18px */
-  line-height: 26px;
+  line-height: 1.625rem; /*26px*/
   text-align: center;
   color: #1f314f;
   margin-bottom: 0.75rem; /* 12px */
