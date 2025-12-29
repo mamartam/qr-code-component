@@ -4,46 +4,80 @@
   margin: 0;
   padding: 0;
 }
+/* html {
+  font-size: 100%; (100%=16px) 
+} */
 body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 0.625rem; /*10px*/
   font-family: "Outfit", sans-serif;
   font-style: normal;
   background-color: #d5e1ef;
 }
 main {
-  max-width: 320px;
+  max-width: 17.5rem; /*280px*/
   text-align: initial;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: hsl(0, 0%, 100%);
-  padding: 16px;
-  border-radius: 20px;
+  padding: 0.625rem; /*10px*/
+  border-radius: 0.938rem; /*15px*/
 }
-.image-qr-container img {
-  width: 288px;
-  height: 288px;
-  border-radius: 10px;
-  margin-bottom: 24px;
+.image-qr-container {
+  display: block;
+  width: 100%;
+  max-width: 14.375rem; /* 230px */
+  height: auto;
+
+  border-radius: 0.438rem; /* 7px */
+  margin-bottom: 1.25rem; /* 20px*/
+  margin-top: 1em;
 }
 .main-page-header {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.125rem; /* 18px */
   line-height: 26px;
   text-align: center;
   color: #1f314f;
-  margin-bottom: 16px;
+  margin-bottom: 0.75rem; /* 12px */
 }
 .page-description {
-  margin-bottom: 24px;
+  margin-bottom: 1.25rem; /* 20px*/
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1rem; /* 16px*/
   text-align: center;
-  letter-spacing: 0.2px;
   color: #68778d;
+}
+
+@media (min-width: 23.4375rem) {
+  /* 375px */
+  body {
+    font-size: 0.938rem; /*15px*/
+  }
+  main {
+    max-width: 20rem; /*320px*/
+    padding: 1rem; /*16px*/
+    border-radius: 1.25rem; /*20px*/
+  }
+  .image-qr-container {
+    max-width: 18rem; /* 288px */
+    border-radius: 0.625rem; /* 10px */
+    margin-bottom: 1.5rem; /* 24px */
+  }
+  .main-page-header {
+    font-weight: 700;
+    font-size: 1.375rem; /*22px*/
+    line-height: 1.625rem; /*26px*/
+    margin-bottom: 1rem; /*16px*/
+  }
+  .page-description {
+    margin-bottom: 1.375rem; /*24px*/
+    line-height: 1.25rem; /* 20px*/
+    letter-spacing: 0.013rem; /*0.2px*/
+  }
 }
